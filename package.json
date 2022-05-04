@@ -13,9 +13,14 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "sass": "^1.49.11",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.5",
     "typescript": "~4.6.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "firebase": "^9.7.0"
+  }
 }
